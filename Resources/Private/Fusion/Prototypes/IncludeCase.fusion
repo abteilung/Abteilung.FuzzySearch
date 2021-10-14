@@ -1,8 +1,8 @@
-prototype(Jonnitto.PhotoSwipe:IncludeCase) < prototype(Neos.Fusion:Component) {
-    alwaysInclude = ${Configuration.setting('Jonnitto.PhotoSwipe.alwaysInclude')}
-    selectorCollection = ${Configuration.setting('Jonnitto.PhotoSwipe.selector.collection')}
-    selectorContent = ${Configuration.setting('Jonnitto.PhotoSwipe.selector.content')}
-    selectorOnDocument = ${Configuration.setting('Jonnitto.PhotoSwipe.selector.onDocument')}
+prototype(Abteilung.FuzzySearch:IncludeCase) < prototype(Neos.Fusion:Component) {
+    alwaysInclude = ${Configuration.setting('Abteilung.FuzzySearch.alwaysInclude')}
+    selectorCollection = ${Configuration.setting('Abteilung.FuzzySearch.selector.collection')}
+    selectorContent = ${Configuration.setting('Abteilung.FuzzySearch.selector.content')}
+    selectorOnDocument = ${Configuration.setting('Abteilung.FuzzySearch.selector.onDocument')}
 
     includeInBackend = false
     node = ${documentNode}

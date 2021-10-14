@@ -21,11 +21,10 @@ Carbon:
           File:
             CSS: 'Public'
             JS: 'Public'
-        Live:
-          # Dark.css and Light.css are included Themes
-          Head:
-            - Dark.css[async]
-            - Main.js[defer]
+        General:
+          Body:
+            - fuse.min.js[async]
+            - fuse.config.js[defer]
 
 
 Neos:
