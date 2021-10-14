@@ -1,0 +1,27 @@
+{
+  "name": "abteilung.fuzzysearch",
+  "version": "1.0.0",
+  "description": "Fuzzy Search for Neos based on Fuse.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abteilung/Abteilung.FuzzySearch.git"
+  },
+  "keywords": [
+    "Neos",
+    "Fuzzy",
+    "Search"
+  ],
+  "author": "Abteilung für Gestaltung GmbH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abteilung/Abteilung.FuzzySearch/issues"
+  },
+  "homepage": "https://github.com/abteilung/Abteilung.FuzzySearch#readme",
+  "dependencies": {
+    "fuse.js": "^6.4.6"
+  }
+}

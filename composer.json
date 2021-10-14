@@ -3,7 +3,8 @@
     "type": "neos-package",
     "name": "abteilung/fuzzysearch",
     "require": {
-        "neos/flow": "*"
+        "neos/flow": "*",
+        "carbon/includeassets": "^5.3"
     },
     "autoload": {
         "psr-4": {
