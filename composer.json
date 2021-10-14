@@ -1,0 +1,18 @@
+{
+    "description": "",
+    "type": "neos-package",
+    "name": "abteilung/fuzzysearch",
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abteilung\\FuzzySearch\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Abteilung.FuzzySearch"
+        }
+    }
+}
